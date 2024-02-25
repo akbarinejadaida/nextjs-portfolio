@@ -13,6 +13,20 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      colors: {
+        foreground: {
+          DEFAULT: 'hsla(var(--foreground))'
+        },
+        background: {
+          DEFAULT: 'hsla(var(--background))',
+        },
+        subtitle: {
+          DEFAULT: 'hsla(var(--subtitle))',
+        },
+        shadow: {
+          DEFAULT: 'hsla(var(--shadow))',
+        },
+      }
     },
   },
   plugins: [],

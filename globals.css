@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+:root {
+  --background: 0 0% 7%;
+  --foreground: 0 0% 100%;
+  --subtitle: 205 12% 71%;
+
+  --shadow: 0 0% 9%;
+}
+}
+ 
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+}
