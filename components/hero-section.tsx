@@ -6,7 +6,7 @@ const sequence = [
   'Aida', 1000, 'Full-Stack Developer', 1500
 ]
 
-export default function Hero() {
+export default function HeroSection() {
   return (
     <section>
       <div className='grid grid-cols-1 sm:grid-cols-12'>
@@ -19,7 +19,6 @@ export default function Hero() {
 
           <p className='text-subtitle text-base sm:text-lg lg:text-xl mb-6'>
             Hello, I'm Aida Akbarinezhad, a passionate Full-Stack Developer skilled in transforming innovative ideas into tangible realities using code.
-            {/* With four years of experience in web development, I specialize in Vue.js, React, Next.js, Tailwind CSS, and Nest.js. My expertise lies in designing user-friendly interfaces and building robust backend systems. I relish tackling complex challenges and unearthing creative solutions, turning abstract concepts into functional digital realities. */}
           </p>
 
           <div>
